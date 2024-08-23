@@ -1,0 +1,159 @@
+We are JASATEL(jasatel).
+We are a company that provides electrical solutions for your home, business or company.
+
+At Jasatel we provide technical assistance and are available 24 hours a day, in our company ( Jasatel ) we are available for technical assistance service all day 24/7.
+
+price - charge : the price or charge for our services depends on the service purchased, to know the respective prices (Prices) with certainty, do not hesitate to contact us.
+
+
+services: electrical services that we offer or provide are
+- Electrical installations services
+- Fire alarm and detection services
+- Structured cabling services
+- Access control services
+- CCTV cameras services
+- Power conditioning and protection safe services
+- General services and office remodeling 
+
+
+
+
+stabilized commercial industrial electrical installations is the installation and maintenance of electrical systems in commercial and industrial environments, ensuring a stable and secure power supply. 
+
+lighting systems service is about design and implementation of efficient lighting systems for various spaces, optimizing energy consumption and improving visibility.
+
+the emergency lighting system service, on the other hand, is about the implementation of emergency lighting systems which, thanks to their batteries, turn on automatically to ensure visibility and safety in blackout situations.
+
+commercial and stabilized outlets system treat about Installation of outlets in commercial areas, ensuring that electrical connection points are safe and offer stable current. 
+
+design and manufacture of electrical panels is the creation of customized electrical panels that serve to control and distribute energy efficiently and safely.
+
+design, execution and certification of grounding systems treat about Establishment of grounding systems that protect against electric shock, including design, installation and certification in accordance with current standards.
+
+drawing design refers to the preparation of detailed graphic plans for our electrical services, ensuring compliance with regulations and optimization of resources.
+
+channeling and piping (with metal CONDUIT pipe) treat about Installation of conduit systems for electrical cables using conduit and metallic piping, ensuring adequate protection and organization.
+
+protocols and certification for indeci is when we ensure your INDECI certificate that serves to verify that your establishment complies with the safety measures that the authorities request in buildings, thi indeci protocols and certification service is based on 4 risk levels: low, medium, high and very high.
+
+electrical fault detection is when we perform the identification and location of faults in electrical systems, this in order to ensure continuous and safe operation.
+
+
+
+
+conventional and addressable alarm centers service the conventional control panels are simpler and less expensive, they identify general alarm zones, while addressable control panels locate the exact point of the incident by means of specific sensors.
+
+smoke detectors are devices that detect the presence of smoke in the environment, indicating a possible fire. They use optical or ionization technology to detect combustion particles.
+
+temperature detectors are sensors that activate an alarm upon detecting an abnormal increase in temperature, signaling a possible fire, they can be fixed temperature or rate-of-rise.
+
+manual stations are devices installed in strategic locations that allow people to manually activate the alarm system in case of emergency, usually by breaking a glass or turning a lever.
+
+gas detectors service we privide an Equipment that identifies the presence of hazardous or combustible gases in the air, such as carbon monoxide, natural gas or propane, alerting to possible risks of poisoning or explosion.
+
+humidity and flooding detectors service we install sensors designed to detect the presence of water or high levels of humidity, these are useful to prevent damage due to flooding or excessive humidity problems in sensitive areas.
+
+evacuation system is a set of devices and procedures intended to guide and ensure the orderly and safe evacuation of people in the event of an emergency, including signage, emergency lighting and public address systems.
+
+plans and certification service we provide Preparation of detailed plans of the systems presented, and obtaining certifications that certify the compliance of the facilities with current regulations and safety standards.
+
+
+
+
+design and installation of cat6, 6a structured cabling consists of planning and carrying out the installation of a cabling system that supports multiple uses, including data, voice and video, in a building or campus, this design and installation of cat6, 6a structured cabling service guarantees an organized and efficient network infrastructure, facilitating network administration and maintenance.
+
+fiber optic design and installation involves the planning and installation of fiber optic cables, this Fiber optic design and installation service is essential to improve the speed and quality of data transmission in communication networks.
+
+cat 6, 6a wiring certification service is responsible for verifying and certifying that category 6 and 6a wiring meets established performance standards. This cat 6, 6a wiring certificación service is crucial to ensure that the network infrastructure runs optimally and smoothly.
+
+cabinets - communications rack includes the provision and installation of cabinets or racks to house network equipment, servers and other communication devices. This cabinets - communications rack service helps keep network equipment organized, accessible and protected.
+
+piping service (also with conduit emt pipe) and cabling is done to guarantee that the electrical system is adequately protected and organized for its operation, the piping with emt ( EMT ) pipes ensures greater safety and durability.
+
+data center implementation consists of the design, construction and commissioning of a data center, which is a facility used to house computer systems and associated components. This Data center implementation service is vital for companies that require high availability, security and efficiency in managing large amounts of data.
+
+general maintenance of the structured cabling system service involves the review, repair and upgrade of the existing structured cabling system and this service is essential to ensure that the network infrastructure remains operational, efficient and secure over time.
+
+
+
+
+access control and attendance control service is responsable for manage the entry and exit of people in an area and record their attendance, improving security and personnel control.
+
+drivers are devices that manage and authorize access through various entrances, essential for efficient access control.
+
+electromagnetic locks are devices that secure doors using electric magnets, guaranteeing a safe and controlled closure, in this service we take care of the installations of electromagnetic locks.
+
+power supply for Acces control devices provides power ensuring their continuous and reliable operation, as with access control systems, power supplies for CCTV cameras should also include protection against overloads, short circuits and surges.
+
+pushbuttons are Buttons that allow manual opening of controlled doors, used for emergency exits and controlled access.
+
+proximity readers are Devices that read proximity keychains or cards, to authorize access, essential for security and convenience.
+
+proximity cards are credentials that allow contactless access, used by authorized personnel to enter restricted areas.
+
+software for access control systems are programs that manage and monitor these systems, providing advanced reports and configurations, also we have software for CCTV cameras are programs that offer advanced features such as video analysis and cloud storage.
+
+installation-programming-maintenance is our installation, configuration and maintenance service for devices and access control systems, guaranteeing their correct functioning and longevity.
+
+
+
+
+accessories service are accessories that we offer for the cctv systems are additional components, such as brackets, cables and connectors, these accessories necessary for a complete and functional installation.
+
+ip cameras are cameras that allow remote monitoring and integration with advanced security systems, these ip cameras are ideal for greater security in your homes.
+
+analog cameras are cameras that use analog signals to transmit video, ip cameras are ideal for simpler and cheaper surveillance systems.
+
+dvr's (DVR'S) are digital video recorders that store images captured by CCTV cameras, allowing for long-term review and storage.
+
+joysticks and decoders are Devices that facilitate the control and management of PTZ (Pan-Tilt-Zoom) cameras and the decoding of video signals for viewing.
+
+mobile solutions are a series of CCTV systems designed for vehicles or mobile environments, providing surveillance and security on the move.
+
+video intercoms and intercoms services include a range of devices that combine cameras and audio systems to allow communication and visual verification of visitors at entrances.
+
+Installation-programming-maintenance service we provide a complete service that includes the installation, configuration and maintenance of CCTV systems, ensuring their correct operation and longevity.
+
+monitors and TV are screens used to view images captured by CCTV cameras, essential for real-time monitoring and review of recordings.
+
+
+
+
+preventive and corrective maintenance are a series of services that include regular inspections and repairs to prevent failures and correct problems in electrical systems, ensuring their continued and safe operation.
+
+stabilizers we offer installation and maintenance of voltage stabilizers, which protect electrical equipment from voltage variations, guaranteeing its optimal operation.
+
+insolation transformers we offer Installation and maintenance of isolation transformers, which provide protection against voltage spikes and electrical noise, improving system safety and efficiency.
+
+ups (UPS) , ups service include the installation and maintenance of Uninterruptible Power Systems (UPS), which provide backup power during power outages, protecting critical equipment and avoiding interruptions.
+
+power quality analysis service we do the evaluation and monitoring of the quality of the power supplied, identifying and correcting problems such as voltage fluctuations, harmonics and other factors that can affect the performance of electrical equipment.
+
+
+
+
+paste and painting work are services that include preparation and painting of surfaces, improving the aesthetics and protection of the office walls and ceilings.
+
+glass work include installation and repair of glass in windows, doors and partitions, improving the lighting and design of work spaces.
+
+carpentry and melamine work service include manufacture and installation of wood and melamine furniture and structures, optimizing the functionality and interior design of the office.
+
+work for drywall and fcr systems service include installation and repair of Drywall and FCR (Reinforced Fiber Cement) wall and ceiling systems, creating modern and efficient divisions and finishes.
+
+plumbing jobs service include installation and maintenance services for plumbing systems, ensuring adequate water supply and drainage in the office.
+
+carpentry work and metal structures service we offer design, manufacturing and installation of metal structures and furniture, providing durable and functional solutions for the workspace.
+
+
+
+
+for contact us simply go to the "Contacts" section in the navigation bar at the back of the web page.
+In the contacts section, you will have to validate your data in the corresponding required fields and the message will be sent to the company manager by g-mail.
+
+
+gmail: you can also send an gmail or g-mail personally to the following contacts:
+-"jasatel@jasatel.pe" 
+-"jasatel.ing@gmail.com"
+
+
+-for contact us by whatsapp or wsp simply click the button in the lower left corner of the web page, then a series of contacts with detailed information will be displayed there.

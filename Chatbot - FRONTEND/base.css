@@ -1,0 +1,210 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Matemasie&family=Noto+Sans+JP:wght@100..900&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
+.chat-container {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+
+/* Animaciones */
+@keyframes slideIn {
+    from {
+        right: -400px;
+        opacity: 0;
+    }
+    to {
+        right: 20px;
+        opacity: 1;
+    }
+}
+
+@keyframes slideOut {
+    from {
+        right: 20px;
+        opacity: 1;
+    }
+    to {
+        right: -400px;
+        opacity: 0;
+    }
+}
+
+.chatbot-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #8B0202;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatbot-icon.close {
+    background-color: #ff0000; /* Cambia el color a rojo para la "X" */
+    padding: 10px 15px; /* Ajusta el padding para centrar la "X" */
+    font-size: 24px;
+}
+
+.chat-container {
+    width: 350px;
+    height: 550px;
+    border: 2px solid #8B0202; 
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    position: fixed;
+    bottom: 20px;
+    right: -400px;
+    display: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: #fff;
+}
+
+.chat-container.open {
+    display: flex;
+    animation: slideIn 0.5s forwards; /* Aplicar la animación de apertura */
+}
+
+.chat-container.close {
+    display: flex;
+    animation: slideOut 0.5s forwards; /* Aplicar la animación de cierre */
+}
+
+.chat-header {
+    background-color: #8B0202;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    font-size: 18px;
+    border-bottom: 1px solid #8B0202;
+    position: relative;
+}
+
+.chat-header .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chat-header-title {
+    font-weight: 700; /* Hace el texto más grueso */
+    margin-left: 0; /* Ajusta para pegar más a la izquierda */
+    padding-left: 5px; /* Opcional: Añadir un pequeño padding si necesario */
+}
+
+.settings-icon {
+    margin-right: 10px;
+}
+
+.close-icon {
+    position: absolute;
+    bottom: 10px; /* Ajusta la posición verticalmente */
+    right: 10px; /* Ajusta la posición horizontalmente */
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.close-icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.chat-body {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    max-width: 80%;
+    line-height: 1.4;
+}
+
+.bot-message {
+    background-color: #E7E7E7;
+    align-self: flex-start;
+    border-radius: 15px 15px 15px 0;
+}
+
+.user-message {
+    background-color: #FAF0DE;
+    align-self: flex-end;
+    border: 1px solid #8B0202;
+    border-radius: 15px 15px 0 15px;
+}
+
+.chat-footer {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #8B0202;
+    padding: 10px;
+    position: relative;
+}
+
+.stop-generating-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.left-square {
+    width: 20px;
+    height: 20px;
+    background-color: #8B0202;
+    border-radius: 4px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#stop-generating {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+}
+
+#chat-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #8B0202;
+    border-radius: 10px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 0;
+}
+
+button img {
+    width: 32px;
+    height: 32px;
+    border: none;
+}
