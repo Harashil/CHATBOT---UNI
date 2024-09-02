@@ -28,7 +28,7 @@ client = AI21Client(api_key="gyUZeCvly036HFJAYxVhLlHt0CDEryvB")
 # Cargar el texto de entrada y dividirlo en fragmentos
 def load_and_split_text(filename):
     with open(filename, 'r') as file:
-        document_data = file.read()
+        document_data = file.read().lower()
 
     text_splitter = RecursiveCharacterTextSplitter(
         chunk_size=220,
@@ -55,10 +55,10 @@ textsl = load_and_split_text('knowledge_base.txt')
 user_saludo = ["buenos días", "buenos dias", "buenas tardes", "buenas noches", "hola", "ola", "hola!", "Hola", "Hola!", "buenas", "mucho gusto", "saludos"]
 user_despedida = ["chau", "adios", "Adios", "nos vemos", "hasta pronto"]
 user_gratitud = ["gracias", "Gracias", "agradezco", "graciass", "gracias.", "Gracias.", "garcias", "Garcias"]
-bot_bienvenida = ["¡Hola y bienvenido a JASATEL!👋\n ¿Como puedo ayudarlo?", "¡Saludos futuro cliente!😁\n¿Como puedo ayudarlo?", "   ¡Mucho gusto!😊\nEstoy aquí para ayudar."]
-bot_saludo = ["¡Hola, un gusto poder atenderlo!", "¡Hola!", "¡Saludos!"]
-bot_despedida = ["😀\n¡Gracias por comunicarte con nosotros!", "😀\n¡Hasta pronto!", "👋\n¡Nos Vemos!", "😄\nGracias por su tiempo ¡Nos vemos!👋"]
-bot_gratitud = ["    ¡Gracias a usted por su comunicación!😄", "Para información más detallada no dude en contactarnos.📞\nEstamos a su servicio.😉", "Estamos a su servicio😄"]
+bot_bienvenida = ["Somos la Universidad Nacional de Ingienería (UNI)👋\n ¿Como puedo ayudarlo?", "¡Saludos futuro universitario!😁\n¿Como puedo ayudarte?", "   ¡Mucho gusto!😊\nEstoy aquí para ayudar."]
+bot_saludo = ["¡Hola, un gusto poder ayudarte", "¡Hola!", "¡Saludos!👋"]
+bot_despedida = ["La disciplina es el puente entre las metas y el logro.\n¡Un gusto ayudarte!😀 ", "😀\n¡Hasta pronto!", "👋\n¡Nos Vemos!", "😄\nGracias por su tiempo ¡Nos vemos!👋"]
+bot_gratitud = ["    ¡Estamos para ayudar!😄", "Para información más detallada puedes contactarnos por nuestras redes sociales.\n¡Suerte!😉", "¡Mucha suerte con tu postulamiento!😄"]
 mensaje_aclaracion = ["Lo siento 😓\n¿Podrías ser más específico con tu pregunta?", "Perdón.\nNo encuentro respuesta a tu pregunta...\n¿Podrías brindarme más detalles?🤔"]
 
 # FUNCIONES PURGANTES:
@@ -72,8 +72,8 @@ def questionCleaner(pregunta_traducida):
 
 def questionDataBaseCleaner(pregunta_traducida):
     innecesaryWords = [
-        "and", "please", "how", "your", "are", "?",
-        "the", "of", "about", "what", "there", "is", "in", "service",
+        "and", "please", "your", "?", 
+        "the", "of", "about", "what", "there", "in", "service",
         "provide", "with", "i", "need", "information", "on", "very",
         ",", "explain", "tell", "much", "me", ":", "a", "offer", "offered",
         "by", "like", "to", "hello", "can", "could", "would",
@@ -99,9 +99,9 @@ def Similarities(pregunta):
 @app.route("/", methods=["POST", "GET"])
 def obtener_pregunta():
     data = request.get_json()
-    pregunta = data.get('userInput')
+    pregunta = data.get('userInput').lower()
     pregunta_traducida = traductor(pregunta)
-    dataBaseCleanedText = questionDataBaseCleaner(questionCleaner(pregunta_traducida).lower())
+    dataBaseCleanedText = questionDataBaseCleaner(questionCleaner(pregunta_traducida))
     similarities = Similarities(dataBaseCleanedText)
 
     def windowsContext():
@@ -114,7 +114,7 @@ def obtener_pregunta():
 
     response = client.answer.create(
         context=windows_context,
-        question=f"explain me about, {questionCleaner(pregunta_traducida)}",
+        question=f"explain to me about, {questionCleaner(pregunta_traducida)}",
     )
     
     respuesta_US = response.answer
